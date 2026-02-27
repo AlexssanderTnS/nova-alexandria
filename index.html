@@ -1,39 +1,157 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Nova Alexandria</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="navbar">
-            <div class="logo">
-                <img src="/assets/logo.png" alt="logo">
-                <h2>Nova Alexandria</h2>
-            </div>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="/assets/logo.png" alt="logo" />
+          <h2>Nova Alexandria</h2>
+        </div>
 
-            <ul class="menu">
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Historia</a></li>
-                <li><a href="#">Atualidades</a></li>
-            </ul>
-        </nav>
-
+        <ul class="menu">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#">Historia</a></li>
+          <li><a href="#">Atualidades</a></li>
+        </ul>
+      </nav>
     </header>
 
     <section class="home">
-        <div id="descr">
-            <img src="/assets/banner.png">
-            <div id="info">
-                <h1>Bem vindo ao <span class="highlight">futuro</span>, ao presente e ao passado.</h1>
-                <p> Tudo no mesmo lugar para facilitar seus estudos e treinar seu desenvolvimento. Este site é destinado á estudantes que precisam se manter atualizados sobre o mundo e informar os acontecimentos mais impactantes durante a história</p>
-            </div>
+      <div id="descr">
+        <img src="/assets/banner.png" />
+        <div id="info">
+          <h1 class="fade-up">
+            Bem vindo ao <span class="highlight">futuro</span>, ao presente e ao
+            passado.
+          </h1>
+          <p class="fade-up-delay">
+            Tudo no mesmo lugar para facilitar seus estudos e treinar seu
+            desenvolvimento. Este site é destinado á estudantes que precisam se
+            manter atualizados sobre o mundo e informar os acontecimentos mais
+            impactantes durante a história
+          </p>
         </div>
+      </div>
     </section>
 
+    <section id="sobre">
+        <h1 id="title-sobre">Nossa Propostas:</h1>
+      <div class="main">
+        <ul class="cards">
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image">
+                <img
+                  src="/assets/Card1.png"
+                  alt="mixed vegetable salad in a mason jar."
+                />
+              
+              </div>
+              <div class="card_content">
+                <h2 class="card_title">Noticias sobre o mundo</h2>
+                <div class="card_text">
+                  <p>
+                    Dig into the freshest veggies of the season! This
+                    salad-in-a-jar features a mixture of leafy greens and
+                    seasonal vegetables, fresh from the farmer's market.
+                  </p>
+                  <hr />
+                  <p>
+                    Served with your choice of dressing on the side:
+                    <strong>housemade ranch</strong>,
+                    <strong>cherry balsamic vinaigrette</strong>,
+                    <strong>creamy chipotle</strong>,
+                    <strong>avocado green goddess</strong>, or
+                    <strong>honey mustard</strong>. Add your choice of protein
+                    for $2 more.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
 
-    
-</body>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image">
+                <img
+                  src="/assets/Card2.jpg"
+                  alt="a Reuben sandwich on wax paper."
+                />
+               
+              </div>
+              <div class="card_content">
+                <h2 class="card_title">Consulta de dados históricos</h2>
+                <div class="card_text">
+                  <p>
+                    All great meals take time, but this one takes it to the next
+                    level! More than 650 hours of fermenting, brining, aging,
+                    and curing goes into each and every one of our legendary
+                    Reuben sandwiches.
+                  </p>
+                  <p>
+                    Every element of this extraordinary sandwich is handcrafted
+                    in our kitchens, from the rye bread baked from our secret
+                    recipe to the cave-aged Swiss cheese, right down to the
+                    pickle. The only thing we didn't make on the premises is the
+                    toothpick ( but we're looking into how to do that).
+                  </p>
+                  <hr />
+                  <p>
+                    This unforgettable sandwich has all of the classic Reuben
+                    elements: <strong>corned beef</strong>,
+                    <strong>rye bread</strong>,
+                    <strong>creamy Russian dressing</strong>,
+                    <strong>sauerkraut</strong>, plus a
+                    <strong>sweet gherkin pickle</strong>. No substitions
+                    please!
+                  </p>
+                  <p>
+                    Add a side of <strong>french fries</strong> or
+                    <strong>sweet potato fries</strong> for $2 more, or our
+                    <strong>housemade pub chips</strong> for $1.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image">
+                
+                <img
+                  src="/assets/Card3.png"
+                  alt="A side view of a plate of figs and berries."
+                />
+                
+              </div>
+              <div class="card_content">
+                <h2 class="card_title">Auxilio em redações de vestibulares</h2>
+                <div class="card_text">
+                  <p>
+                    A succulent sextet of fresh figs join with a selection of
+                    bodacious seasonal berries in this refreshing, shareable
+                    dessert.
+                  </p>
+                  <hr />
+                  <p>
+                    Choose your drizzle:
+                    <strong>cherry-balsamic vinegar</strong>,
+                    <strong>local honey</strong>, or
+                    <strong>housemade chocolate sauce</strong>.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
 </html>
