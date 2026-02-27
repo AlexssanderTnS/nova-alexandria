@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Sigmar+One&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-weight: 500;
-
+    font-family: Lilita One, open-sans;
 }
 
 html{
@@ -16,11 +19,17 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    border-bottom: solid #e5e900;
+    border-bottom: 2px solid #F7C948;
 
 }
 body{
-    background-color: #808080;
+    background: #7851A9;
+    background: radial-gradient(
+        circle at 30% 40%,
+        #5B3A8E,
+        #2B1E3F 70%
+    );
+    
 }   
 
 
@@ -28,7 +37,7 @@ nav.navbar {
     display: flex;
     align-items: center;
     flex-direction: row;
-    background-color: rgb(54, 52, 52);
+    background-color: #2B1E3F;
     justify-content: space-between;
 }
 
@@ -39,7 +48,7 @@ div.logo{
     align-items: center;
 }
 
-div.logo p{
+div.logo h2{
     color: #e5e900;
     font-size: 25px;
 
@@ -49,6 +58,7 @@ div.logo p{
 div.logo img{
     width: 130px;
     height: 120px;
+    
 }
 
 ul.menu{
@@ -72,4 +82,54 @@ ul.menu li a{
 ul.menu li a:hover{
     cursor: pointer;
     color: aqua;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+     min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+#descr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-8px); }
+    100% { transform: translateY(0px); }
+}
+
+#descr img{
+    width: 1000px;
+    animation: float 3s ease-in-out infinite;
+
+}
+
+#descr p{
+    font-size: 20px;
+    color: #F5F5F5;
+    opacity: 0.85;
+}
+
+div #info{
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+div#info h1{
+    color: #F5F5F5;
+    text-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.highlight {
+    color: #F7C948;
+    font-weight: 700;
 }
